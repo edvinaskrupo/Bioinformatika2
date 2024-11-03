@@ -14,6 +14,7 @@
       
 3. Remove redundant sequences
     - Genomai išrikiuoti mažėjimo tvarka "seqdump_sorted" faile.
+    - Genomai klasterizuoti "seqdump_cluster" faile.
       
 4. Protein based analysis
     - TBD
