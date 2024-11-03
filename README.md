@@ -13,7 +13,7 @@
     - Komentaras daliai j): Radau 5 sekas, išsaugojau jas "seqdump2.fasta" faile.
       
 3. Remove redundant sequences
-    - TBD
+    - Genomai išrikiuoti mažėjimo tvarka "seqdump_sorted" faile.
       
 4. Protein based analysis
     - TBD
