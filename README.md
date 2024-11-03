@@ -15,9 +15,13 @@
 3. Remove redundant sequences
     - Genomai išrikiuoti mažėjimo tvarka "seqdump_sorted" faile.
     - Genomai klasterizuoti "seqdump_cluster" faile.
-    - Identifikatoriai įrašyti "representatives.txt" faile. 
-      Naudota komanda: grep '... \*$' seqdump_cluster.fasta | sed -n 's/.*>\(.*\)\.\.\. \*$/\1/p' > representatives.txt
-      
+    - Identifikatoriai įrašyti "representatives.txt" faile.
+    - Reprezentatyvūs genomai įrašyti "representatives_sequences.fasta" faile.
+    - Naudota komanda identifikatoriams rasti:
+```bash
+grep '... \*$' seqdump_cluster.fasta | sed -n 's/.*>\(.*\)\.\.\. \*$/\1/p' > representatives.txt
+```
+
 4. Protein based analysis
     - TBD
 
