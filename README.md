@@ -16,7 +16,7 @@
     - Genomai išrikiuoti mažėjimo tvarka "seqdump_sorted" faile.
     - Genomai klasterizuoti "seqdump_cluster" faile.
     - Identifikatoriai įrašyti "representatives.txt" faile. 
-      Naudota komanda: grep -o '>[^ ]*' seqdump.fasta | sed 's/>//' > representatives.txt
+      Naudota komanda: grep '... \*$' seqdump_cluster.fasta | sed -n 's/.*>\(.*\)\.\.\. \*$/\1/p' > representatives.txt
       
 4. Protein based analysis
     - TBD
