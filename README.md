@@ -23,7 +23,12 @@ grep '... \*$' seqdump_cluster.fasta | sed -n 's/.*>\(.*\)\.\.\. \*$/\1/p' > rep
 ```
 
 4. Protein based analysis
-    - TBD
+    - Baltymo seka "D3W8N4" įrašyta faile "D3W8N4.fasta"
+    - Aligned sequences įrašyti faile "aligned_sequences.fasta"
+    - Ištranslate'intos sekos įrašytos faile "translated_sequences.fasta"
+    - Išfiltruotos sekos įrašytos faile "filtered_sequences.fasta" (pokyčių nėra, visos sekos ilgesnės nei 800)
+    - mafft alignmentas įrašytas faile "aligned_sequences_mafft.fasta"
+    - Fasttree medis sugeneruotas faile "phylogenetic_tree.tree"
 
 5. Analysis
     - TBD
