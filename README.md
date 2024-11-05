@@ -31,7 +31,15 @@ grep '... \*$' seqdump_cluster.fasta | sed -n 's/.*>\(.*\)\.\.\. \*$/\1/p' > rep
     - Fasttree medis sugeneruotas faile "phylogenetic_tree.tree"
 
 5. Analysis
-    - TBD
+    - Python kodas išsaugotas faile "analysis.py"
+    - Medis su kupranugario viruso šaknim išsaugotas faile "rooted_tree.tree"
     
 6. Interpretation
-     - TBD
+     - How did the Covid-19 evolve, what path through hosts was taken?
+       - Iš medžio panašu, jog prieš užkrečiant žmogų, virusas buvo užkrėtęs šikšnosparnius, pasagnosinius šikšnosparnius (horseshoe bat), prieš tai - skujuotinius (pangolins), dar prieš juos - kupranugarius.
+     - Would it be different interpretation if out-group is not used?
+       - Ir taip ir ne - vis tiek matome kokie gyvūnai nešiojo koronaviruso pirmtaką, tačiau be atsvaros taško, neaišku kuris gyvūnas po kurio ėjo laikui bėgant.
+     - What about Urbani SARS origin?
+       - Iš medžio panašu, jog šis virusas ganėtinai seniai atsiskyrė nuo Covid19, tad jis neturėtų būti viruso pirmtakas.
+     - Is the Palm Civet origin evident?
+       - Mano gautame medyje šios atmainos nėra, negaliu daryti išvadų.
